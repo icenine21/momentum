@@ -4,6 +4,13 @@ $(document).ready(function () {
   renderRandomImage();
 });
 
+
+//리로드
+setTimeout(function () {
+    location.reload();
+}, 60 * 1000);
+
+
 //현재 시간
 function renderCurrentTime() {
 let url = `https://worldtimeapi.org/api/timezone/Asia/Seoul`;
