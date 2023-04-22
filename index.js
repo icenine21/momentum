@@ -6,9 +6,9 @@ $(document).ready(function () {
 
 
 //리로드
-setTimeout(function () {
-    location.reload();
-}, 60 * 1000);
+setTimeout(function(){
+location.reload();
+},3000);
 
 
 //현재 시간
