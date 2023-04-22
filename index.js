@@ -8,7 +8,7 @@ $(document).ready(function () {
 //리로드
 setTimeout(function(){
 location.reload();
-},3000);
+},10000);
 
 
 //현재 시간
